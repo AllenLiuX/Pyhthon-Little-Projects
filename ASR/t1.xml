@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="30000" Uri="/mydata/qianxun484/data-source/speech/Sub/2020-06-03/file/7400872.mp3.wav">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="31">
+						<Item Begin="2270" End="2511">
+							<Text>而</Text>
+						</Item>
+						<Time>2270,2511</Time>
+						<Item Begin="2511" End="2993">
+							<Text>威廉</Text>
+						</Item>
+						<Time>2511,2993</Time>
+						<Item Begin="2993" End="3337">
+							<Text>啊</Text>
+						</Item>
+						<Time>2993,3337</Time>
+						<Item Begin="3922" End="4094">
+							<Text>这</Text>
+						</Item>
+						<Time>3922,4094</Time>
+						<Item Begin="4197" End="4472">
+							<Text>是</Text>
+						</Item>
+						<Time>4197,4472</Time>
+						<Item Begin="4472" End="4713">
+							<Text>微</Text>
+						</Item>
+						<Time>4472,4713</Time>
+						<Item Begin="4713" End="4885">
+							<Text>众</Text>
+						</Item>
+						<Time>4713,4885</Time>
+						<Item Begin="4885" End="5401">
+							<Text>银行</Text>
+						</Item>
+						<Time>4885,5401</Time>
+						<Item Begin="5401" End="5779">
+							<Text>更多</Text>
+						</Item>
+						<Time>5401,5779</Time>
+						<Item Begin="5779" End="6158">
+							<Text>没人</Text>
+						</Item>
+						<Time>5779,6158</Time>
+						<Item Begin="6192" End="6399">
+							<Text>给</Text>
+						</Item>
+						<Time>6192,6399</Time>
+						<Item Begin="6399" End="6639">
+							<Text>林</Text>
+						</Item>
+						<Time>6399,6639</Time>
+						<Item Begin="6639" End="7259">
+							<Text>试点</Text>
+						</Item>
+						<Time>6639,7259</Time>
+						<Item Begin="7465" End="7981">
+							<Text>城市</Text>
+						</Item>
+						<Time>7465,7981</Time>
+						<Item Begin="7981" End="8463">
+							<Text>刘雨</Text>
+						</Item>
+						<Time>7981,8463</Time>
+						<Item Begin="8463" End="9013">
+							<Text>是吗</Text>
+						</Item>
+						<Time>8463,9013</Time>
+						<Item Begin="16204" End="16376">
+							<Text>微</Text>
+						</Item>
+						<Time>16204,16376</Time>
+						<Item Begin="16376" End="16548">
+							<Text>众</Text>
+						</Item>
+						<Time>16376,16548</Time>
+						<Item Begin="16548" End="17064">
+							<Text>银行</Text>
+						</Item>
+						<Time>16548,17064</Time>
+						<Item Begin="17098" End="17924">
+							<Text>最佳</Text>
+						</Item>
+						<Time>17098,17924</Time>
+						<Item Begin="18233" End="19369">
+							<Text>您好</Text>
+						</Item>
+						<Time>18233,19369</Time>
+						<Item Begin="26249" End="26731">
+							<Text>好不好</Text>
+						</Item>
+						<Time>26249,26731</Time>
+						<Item Begin="26731" End="27213">
+							<Text>意思</Text>
+						</Item>
+						<Time>26731,27213</Time>
+						<Item Begin="27213" End="27454">
+							<Text>了</Text>
+						</Item>
+						<Time>27213,27454</Time>
+						<Item Begin="27454" End="27660">
+							<Text>打</Text>
+						</Item>
+						<Time>27454,27660</Time>
+						<Item Begin="27660" End="27832">
+							<Text>了</Text>
+						</Item>
+						<Time>27660,27832</Time>
+						<Item Begin="27832" End="28245">
+							<Text>你那</Text>
+						</Item>
+						<Time>27832,28245</Time>
+						<Item Begin="28279" End="28623">
+							<Text>祝您</Text>
+						</Item>
+						<Time>28279,28623</Time>
+						<Item Begin="28623" End="29071">
+							<Text>生活</Text>
+						</Item>
+						<Time>28623,29071</Time>
+						<Item Begin="29071" End="29518">
+							<Text>愉快</Text>
+						</Item>
+						<Time>29071,29518</Time>
+						<Item Begin="29518" End="30000">
+							<Text>债券</Text>
+						</Item>
+						<Time>29518,30000</Time>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="25">
+						<Item Begin="4472" End="4850">
+							<Text>嗯</Text>
+						</Item>
+						<Time>4472,4850</Time>
+						<Item Begin="10045" End="10596">
+							<Text>是的</Text>
+						</Item>
+						<Time>10045,10596</Time>
+						<Item Begin="10596" End="10837">
+							<Text>你们</Text>
+						</Item>
+						<Time>10596,10837</Time>
+						<Item Begin="10837" End="10974">
+							<Text>去</Text>
+						</Item>
+						<Time>10837,10974</Time>
+						<Item Begin="10974" End="11353">
+							<Text>哪里</Text>
+						</Item>
+						<Time>10974,11353</Time>
+						<Item Begin="11353" End="11628">
+							<Text>啊</Text>
+						</Item>
+						<Time>11353,11628</Time>
+						<Item Begin="11628" End="11903">
+							<Text>微</Text>
+						</Item>
+						<Time>11628,11903</Time>
+						<Item Begin="11903" End="12075">
+							<Text>众</Text>
+						</Item>
+						<Time>11903,12075</Time>
+						<Item Begin="12075" End="12522">
+							<Text>银行</Text>
+						</Item>
+						<Time>12075,12522</Time>
+						<Item Begin="12522" End="13176">
+							<Text>是</Text>
+						</Item>
+						<Time>12522,13176</Time>
+						<Item Begin="14174" End="14690">
+							<Text>哪家</Text>
+						</Item>
+						<Time>14174,14690</Time>
+						<Item Begin="20435" End="20951">
+							<Text>我没有</Text>
+						</Item>
+						<Time>20435,20951</Time>
+						<Item Begin="20951" End="21261">
+							<Text>听</Text>
+						</Item>
+						<Time>20951,21261</Time>
+						<Item Begin="21261" End="21639">
+							<Text>过</Text>
+						</Item>
+						<Time>21261,21639</Time>
+						<Item Begin="21639" End="21880">
+							<Text>你们</Text>
+						</Item>
+						<Time>21639,21880</Time>
+						<Item Begin="21880" End="22121">
+							<Text>不要</Text>
+						</Item>
+						<Time>21880,22121</Time>
+						<Item Begin="22121" End="22293">
+							<Text>再</Text>
+						</Item>
+						<Time>22121,22293</Time>
+						<Item Begin="22293" End="22499">
+							<Text>给我</Text>
+						</Item>
+						<Time>22293,22499</Time>
+						<Item Begin="22499" End="23084">
+							<Text>打电话</Text>
+						</Item>
+						<Time>22499,23084</Time>
+						<Item Begin="23084" End="23256">
+							<Text>了</Text>
+						</Item>
+						<Time>23084,23256</Time>
+						<Item Begin="23291" End="23600">
+							<Text>不然</Text>
+						</Item>
+						<Time>23291,23600</Time>
+						<Item Begin="23600" End="23704">
+							<Text>我</Text>
+						</Item>
+						<Time>23600,23704</Time>
+						<Item Begin="23704" End="23876">
+							<Text>就</Text>
+						</Item>
+						<Time>23704,23876</Time>
+						<Item Begin="24529" End="24736">
+							<Text>烦</Text>
+						</Item>
+						<Time>24529,24736</Time>
+						<Item Begin="24736" End="25011">
+							<Text>啊</Text>
+						</Item>
+						<Time>24736,25011</Time>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

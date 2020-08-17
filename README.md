@@ -2,6 +2,10 @@
 
 # Python
 
+[TOC]
+
+
+
 ## Review Session
 
 ### 1. Python Basics
