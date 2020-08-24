@@ -18,7 +18,7 @@ def get_urls(keyword, range, sequence, begin_time, end_time, art_num):
     if end_time != "":
         url += "&etime="+end_time+"%2023:59:59"
     url += "&num=10"
-    url = quote(url, safe=string.printable)
+    url = quote(url, safe=string.printable) #to transcribe Chinese keyword in url
 
     res = []
     sources = []
@@ -110,7 +110,8 @@ def main():
         print("Processing article #"+str(i))
         process_article(u, int(words_min), str(i), '')
         #process_article(u, int(words_min), str(i), sources[i])
-        i+=1
+        i += 1
+        #next: 用bs获取<h2>并依次获取下面的title，url，source。
 
 if __name__=="__main__":
     main()
