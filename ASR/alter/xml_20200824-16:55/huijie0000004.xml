@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="72144" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Huijie2/huijie0000004.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="22">
+						<Item Begin="3885" End="6949">
+							<Text>您好 &lt;UNK&gt; 银行工作 人员-23 已经 制定</Text>
+							<Time>3885,4390 4453,5148 5148,5938 5938,6285 6285,6506 6506,6949</Time>
+						</Item>
+						<Item Begin="7328" End="8275">
+							<Text>真心英雄</Text>
+							<Time>7328,8275</Time>
+						</Item>
+						<Item Begin="9507" End="13045">
+							<Text>杯具男 电子游戏 羽林军 剧本 的 身份 信息-60</Text>
+							<Time>9507,10012 10012,10739 10739,11687 11781,12129 12129,12224 12224,12539 12539,13045</Time>
+						</Item>
+						<Item Begin="13519" End="15666">
+							<Text>求 你-48 现在 说话 方便-251 吗-110</Text>
+							<Time>13519,13771 13771,13929 13929,14656 14782,15066 15066,15414 15414,15666</Time>
+						</Item>
+						<Item Begin="18794" End="20373">
+							<Text>为了-8 保证-58 服务质量</Text>
+							<Time>18794,19078 19078,19646 19646,20373</Time>
+						</Item>
+						<Item Begin="20626" End="21384">
+							<Text>本机 通话</Text>
+							<Time>20626,20941 20941,21384</Time>
+						</Item>
+						<Item Begin="21794" End="22394">
+							<Text>边 录音-191</Text>
+							<Time>21794,21952 21952,22394</Time>
+						</Item>
+						<Item Begin="22931" End="23437">
+							<Text>了解-16</Text>
+							<Time>22931,23437</Time>
+						</Item>
+						<Item Begin="24069" End="27512">
+							<Text>请问 本 处理-129 在身 上 是你 本人-273 操作 的 吗-110</Text>
+							<Time>24069,24669 24669,24921 24921,25395 25395,25774 25774,25964 25995,26469 26469,26848 26848,27196 27196,27290 27290,27512</Time>
+						</Item>
+						<Item Begin="30323" End="31870">
+							<Text>为了-8 确定 您-204 状况</Text>
+							<Time>30323,30607 30607,31049 31049,31365 31365,31870</Time>
+						</Item>
+						<Item Begin="33039" End="34587">
+							<Text>核对 查询 号码</Text>
+							<Time>33039,33545 33545,34176 34176,34587</Time>
+						</Item>
+						<Item Begin="40778" End="40999">
+							<Text>幺</Text>
+							<Time>40778,40999</Time>
+						</Item>
+						<Item Begin="42294" End="43715">
+							<Text>五二 八 号 的 申请书</Text>
+							<Time>42294,42705 42705,42831 42831,42957 42957,43084 43084,43715</Time>
+						</Item>
+						<Item Begin="44663" End="45295">
+							<Text>熊 的 吗-110</Text>
+							<Time>44663,44947 44947,45074 45074,45295</Time>
+						</Item>
+						<Item Begin="48138" End="50633">
+							<Text>跟 市民 的 配合-510 温馨-322 皮钦尼</Text>
+							<Time>48138,48390 48390,48801 48801,48896 48896,49433 49496,49938 49938,50633</Time>
+						</Item>
+						<Item Begin="50854" End="52339">
+							<Text>按照 巨款 合同-108 规定</Text>
+							<Time>50854,51296 51296,51612 51612,51928 51928,52339</Time>
+						</Item>
+						<Item Begin="52686" End="53160">
+							<Text>迎新</Text>
+							<Time>52686,53160</Time>
+						</Item>
+						<Item Begin="54423" End="55940">
+							<Text>能不能 日语 购买-486</Text>
+							<Time>54423,54992 54992,55560 55592,55940</Time>
+						</Item>
+						<Item Begin="57866" End="58940">
+							<Text>首度 还 猴子</Text>
+							<Time>57866,58245 58245,58435 58435,58940</Time>
+						</Item>
+						<Item Begin="59351" End="59793">
+							<Text>至少</Text>
+							<Time>59351,59793</Time>
+						</Item>
+						<Item Begin="62983" End="66332">
+							<Text>根据 您-204 的 支持 和 配合-510 我们 会 尽快 为您 富裕</Text>
+							<Time>62983,63426 63426,63584 63584,63647 63647,63994 64026,64184 64184,64689 64784,65068 65068,65226 65226,65637 65637,65921 65921,66332</Time>
+						</Item>
+						<Item Begin="66711" End="70343">
+							<Text>生活-353 只能 退 北部 估计 就 停下 祝您 生活-353 愉快-207</Text>
+							<Time>66711,67058 67058,67374 67374,67563 67563,67942 67942,68353 68353,68511 68511,69080 69238,69648 69648,69964 69964,70343</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="7">
+						<Item Begin="16772" End="17593">
+							<Text>嗯 方便-251</Text>
+							<Time>16772,17088 17119,17593</Time>
+						</Item>
+						<Item Begin="28459" End="29312">
+							<Text>恩 是的-263</Text>
+							<Time>28459,28838 28870,29312</Time>
+						</Item>
+						<Item Begin="37051" End="39325">
+							<Text>啊 二五二 五</Text>
+							<Time>37051,37840 37935,38977 38977,39325</Time>
+						</Item>
+						<Item Begin="46084" End="46527">
+							<Text>恩</Text>
+							<Time>46084,46527</Time>
+						</Item>
+						<Item Begin="46843" End="47253">
+							<Text>是的-263</Text>
+							<Time>46843,47253</Time>
+						</Item>
+						<Item Begin="61246" End="62257">
+							<Text>哦 知道</Text>
+							<Time>61246,61720 61751,62257</Time>
+						</Item>
+						<Item Begin="71512" End="72144">
+							<Text>你看 看</Text>
+							<Time>71512,71922 71922,72144</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="8.86"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="9.35"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="6.08"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="41">
+						<Item Begin="4390" End="4453"/>
+						<Item Begin="6949" End="7328"/>
+						<Item Begin="8275" End="9507"/>
+						<Item Begin="11687" End="11781"/>
+						<Item Begin="13045" End="13519"/>
+						<Item Begin="14656" End="14782"/>
+						<Item Begin="15666" End="16772"/>
+						<Item Begin="17088" End="17119"/>
+						<Item Begin="17593" End="18794"/>
+						<Item Begin="20373" End="20626"/>
+						<Item Begin="21384" End="21794"/>
+						<Item Begin="22394" End="22931"/>
+						<Item Begin="23437" End="24069"/>
+						<Item Begin="25964" End="25995"/>
+						<Item Begin="27512" End="28459"/>
+						<Item Begin="28838" End="28870"/>
+						<Item Begin="29312" End="30323"/>
+						<Item Begin="31870" End="33039"/>
+						<Item Begin="34587" End="37051"/>
+						<Item Begin="37840" End="37935"/>
+						<Item Begin="39325" End="40778"/>
+						<Item Begin="40999" End="42294"/>
+						<Item Begin="43715" End="44663"/>
+						<Item Begin="45295" End="46084"/>
+						<Item Begin="46527" End="46843"/>
+						<Item Begin="47253" End="48138"/>
+						<Item Begin="49433" End="49496"/>
+						<Item Begin="50633" End="50854"/>
+						<Item Begin="52339" End="52686"/>
+						<Item Begin="53160" End="54423"/>
+						<Item Begin="55560" End="55592"/>
+						<Item Begin="55940" End="57866"/>
+						<Item Begin="58940" End="59351"/>
+						<Item Begin="59793" End="61246"/>
+						<Item Begin="61720" End="61751"/>
+						<Item Begin="62257" End="62983"/>
+						<Item Begin="63994" End="64026"/>
+						<Item Begin="64689" End="64784"/>
+						<Item Begin="66332" End="66711"/>
+						<Item Begin="69080" End="69238"/>
+						<Item Begin="70343" End="71512"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

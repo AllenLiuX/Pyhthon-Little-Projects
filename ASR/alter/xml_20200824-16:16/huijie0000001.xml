@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="34488" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Huijie2/huijie0000001.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="7">
+						<Item Begin="5405" End="5929">
+							<Text>喂</Text>
+							<Time>5405,5929</Time>
+						</Item>
+						<Item Begin="7502" End="10648">
+							<Text>你好 这里 是 微 众 银行 工作 原理</Text>
+							<Time>7502,8148 8148,8551 8551,8712 8712,8954 8954,9156 9156,9680 9680,10124 10124,10648</Time>
+						</Item>
+						<Item Begin="12020" End="14037">
+							<Text>有 微信 流域 是吗</Text>
+							<Time>12020,12262 12262,12907 12948,13512 13512,14037</Time>
+						</Item>
+						<Item Begin="19765" End="21459">
+							<Text>微 众 银行</Text>
+							<Time>19765,20047 20047,20249 20249,21459</Time>
+						</Item>
+						<Item Begin="22185" End="22790">
+							<Text>银行</Text>
+							<Time>22185,22790</Time>
+						</Item>
+						<Item Begin="31503" End="32350">
+							<Text>等你 呢</Text>
+							<Time>31503,32108 32108,32350</Time>
+						</Item>
+						<Item Begin="33035" End="34488">
+							<Text>回去 快 回去</Text>
+							<Time>33035,33358 33358,33721 33882,34488</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="2">
+						<Item Begin="16417" End="18514">
+							<Text>蓝牙 微 众 银行 是什么</Text>
+							<Time>16417,17143 17183,17385 17385,17506 17506,17828 17828,18514</Time>
+						</Item>
+						<Item Begin="25936" End="29728">
+							<Text>你们 待 在后 台 化 了 不然 我 投诉 你们 骚扰</Text>
+							<Time>25936,26339 26339,26581 26581,26985 26985,27308 27308,27550 27550,27711 27711,28034 28034,28155 28155,28639 28639,28881 28881,29728</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="5.65"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="4.96"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="6.84"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="11">
+						<Item Begin="5929" End="7502"/>
+						<Item Begin="10648" End="12020"/>
+						<Item Begin="12907" End="12948"/>
+						<Item Begin="14037" End="16417"/>
+						<Item Begin="17143" End="17183"/>
+						<Item Begin="18514" End="19765"/>
+						<Item Begin="21459" End="22185"/>
+						<Item Begin="22790" End="25936"/>
+						<Item Begin="29728" End="31503"/>
+						<Item Begin="32350" End="33035"/>
+						<Item Begin="33721" End="33882"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

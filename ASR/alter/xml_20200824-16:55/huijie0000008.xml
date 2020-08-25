@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="72936" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Huijie2/huijie0000008.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="22">
+						<Item Begin="3390" End="5956">
+							<Text>您好 自己 吴宇 大 银行工作 人员-23</Text>
+							<Time>3390,3928 3928,4340 4340,4657 4657,4847 4847,5608 5608,5956</Time>
+						</Item>
+						<Item Begin="6431" End="6716">
+							<Text>的</Text>
+							<Time>6431,6716</Time>
+						</Item>
+						<Item Begin="9283" End="10772">
+							<Text>行为 与 么</Text>
+							<Time>9283,9663 9663,10423 10423,10772</Time>
+						</Item>
+						<Item Begin="13560" End="15429">
+							<Text>感性 的 女人 晤 易 贷 产品-21</Text>
+							<Time>13560,13877 13877,13940 13940,14352 14352,14542 14542,14732 14732,14891 14891,15429</Time>
+						</Item>
+						<Item Begin="15841" End="19200">
+							<Text>本身 来电 主要 是-262 林俊杰 的 相关-364 信息-60</Text>
+							<Time>15841,16190 16190,16633 16633,16919 16919,17109 17109,17964 18091,18249 18249,18598 18598,19200</Time>
+						</Item>
+						<Item Begin="19580" End="21449">
+							<Text>有 您-204 现在 方便-251 通话 吗-110</Text>
+							<Time>19580,19770 19770,19992 19992,20499 20499,20816 20816,21164 21164,21449</Time>
+						</Item>
+						<Item Begin="24143" End="25695">
+							<Text>为了-8 保证-58 和 质量-485</Text>
+							<Time>24143,24459 24459,24903 24903,25220 25220,25695</Time>
+						</Item>
+						<Item Begin="25948" End="27818">
+							<Text>本机 通话 可能 会 被 录音-191</Text>
+							<Time>25948,26329 26329,26741 26741,26994 26994,27152 27152,27311 27311,27818</Time>
+						</Item>
+						<Item Begin="28071" End="28737">
+							<Text>医疗 与</Text>
+							<Time>28071,28420 28420,28737</Time>
+						</Item>
+						<Item Begin="29244" End="31588">
+							<Text>人文 本质 威力 在 申请-356 &lt;UNK&gt;</Text>
+							<Time>29244,29560 29560,30004 30004,30289 30289,30448 30448,30859 30955,31588</Time>
+						</Item>
+						<Item Begin="32095" End="32792">
+							<Text>号 哥哥 吗-110</Text>
+							<Time>32095,32254 32254,32507 32507,32792</Time>
+						</Item>
+						<Item Begin="35390" End="37260">
+							<Text>为了-8 确认 员 郑匡宇</Text>
+							<Time>35390,35707 35707,36119 36119,36372 36372,37260</Time>
+						</Item>
+						<Item Begin="37735" End="39699">
+							<Text>跟 和 率下 身份证 号码</Text>
+							<Time>37735,38020 38020,38242 38242,38780 38780,39256 39256,39699</Time>
+						</Item>
+						<Item Begin="40428" End="40998">
+							<Text>是-262 多少</Text>
+							<Time>40428,40555 40555,40998</Time>
+						</Item>
+						<Item Begin="44579" End="46511">
+							<Text>有 为您 纬候 五二 八 号</Text>
+							<Time>44579,44769 44769,45276 45276,45878 45878,46258 46258,46416 46416,46511</Time>
+						</Item>
+						<Item Begin="48190" End="48983">
+							<Text>在 什么</Text>
+							<Time>48190,48381 48381,48983</Time>
+						</Item>
+						<Item Begin="53703" End="54179">
+							<Text>好的</Text>
+							<Time>53703,54179</Time>
+						</Item>
+						<Item Begin="54496" End="58805">
+							<Text>感谢您 配合-510 温馨提示 呢 按照 巨款 合同-108 规定</Text>
+							<Time>54496,55129 55129,55668 55763,56523 56523,56904 57062,57632 57632,58076 58076,58361 58361,58805</Time>
+						</Item>
+						<Item Begin="59755" End="62797">
+							<Text>的 未在 巨款 镇 不能不 与 购买-486 住房</Text>
+							<Time>59755,59882 59882,60294 60294,60832 60927,61149 61149,61656 61656,61910 61910,62258 62258,62797</Time>
+						</Item>
+						<Item Begin="63272" End="65395">
+							<Text>进行 股票-415 证券 的 投资-218</Text>
+							<Time>63272,63874 64032,64476 64476,64824 64824,64920 64920,65395</Time>
+						</Item>
+						<Item Begin="69133" End="71066">
+							<Text>后 根据 您-204 的 身体 和 配合-510</Text>
+							<Time>69133,69419 69419,69862 69862,69989 69989,70084 70084,70432 70432,70591 70591,71066</Time>
+						</Item>
+						<Item Begin="71320" End="72936">
+							<Text>我们 会 尽 还有 一 数据</Text>
+							<Time>71320,71605 71605,71858 71858,72048 72048,72270 72270,72492 72492,72936</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="7">
+						<Item Begin="1172" End="2027">
+							<Text>为 哪里</Text>
+							<Time>1172,1520 1520,2027</Time>
+						</Item>
+						<Item Begin="11469" End="12324">
+							<Text>啊 我是</Text>
+							<Time>11469,11786 11786,12324</Time>
+						</Item>
+						<Item Begin="22273" End="23034">
+							<Text>儿 方便-251</Text>
+							<Time>22273,22527 22527,23034</Time>
+						</Item>
+						<Item Begin="33458" End="33964">
+							<Text>是的-263</Text>
+							<Time>33458,33964</Time>
+						</Item>
+						<Item Begin="42012" End="43089">
+							<Text>二五二 五</Text>
+							<Time>42012,42678 42678,43089</Time>
+						</Item>
+						<Item Begin="50155" End="52753">
+							<Text>是的-263 是我 自己 在 用 的</Text>
+							<Time>50155,50630 50630,51169 51359,51897 52088,52278 52278,52499 52499,52753</Time>
+						</Item>
+						<Item Begin="67359" End="68468">
+							<Text>噢 我知道 了</Text>
+							<Time>67359,67676 67676,68246 68246,68468</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="8.81"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="9.15"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="7.05"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="36">
+						<Item Begin="2027" End="3390"/>
+						<Item Begin="5956" End="6431"/>
+						<Item Begin="6716" End="9283"/>
+						<Item Begin="10772" End="11469"/>
+						<Item Begin="12324" End="13560"/>
+						<Item Begin="15429" End="15841"/>
+						<Item Begin="17964" End="18091"/>
+						<Item Begin="19200" End="19580"/>
+						<Item Begin="21449" End="22273"/>
+						<Item Begin="23034" End="24143"/>
+						<Item Begin="25695" End="25948"/>
+						<Item Begin="27818" End="28071"/>
+						<Item Begin="28737" End="29244"/>
+						<Item Begin="30859" End="30955"/>
+						<Item Begin="31588" End="32095"/>
+						<Item Begin="32792" End="33458"/>
+						<Item Begin="33964" End="35390"/>
+						<Item Begin="37260" End="37735"/>
+						<Item Begin="39699" End="40428"/>
+						<Item Begin="40998" End="42012"/>
+						<Item Begin="43089" End="44579"/>
+						<Item Begin="46511" End="48190"/>
+						<Item Begin="48983" End="50155"/>
+						<Item Begin="51169" End="51359"/>
+						<Item Begin="51897" End="52088"/>
+						<Item Begin="52753" End="53703"/>
+						<Item Begin="54179" End="54496"/>
+						<Item Begin="55668" End="55763"/>
+						<Item Begin="56904" End="57062"/>
+						<Item Begin="58805" End="59755"/>
+						<Item Begin="60832" End="60927"/>
+						<Item Begin="62797" End="63272"/>
+						<Item Begin="63874" End="64032"/>
+						<Item Begin="65395" End="67359"/>
+						<Item Begin="68468" End="69133"/>
+						<Item Begin="71066" End="71320"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

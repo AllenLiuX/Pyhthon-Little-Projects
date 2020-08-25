@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="25992" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Huijie2/huijie0000100.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="5">
+						<Item Begin="4221" End="4786">
+							<Text>你好-50</Text>
+							<Time>4221,4786</Time>
+						</Item>
+						<Item Begin="6348" End="8641">
+							<Text>祝 银行工作 月饼 致电-425</Text>
+							<Time>6348,6514 6514,7412 7412,8076 8076,8641</Time>
+						</Item>
+						<Item Begin="9140" End="11433">
+							<Text>询问 四成 兴奋 吗-110</Text>
+							<Time>9140,9771 9805,10569 10636,11068 11068,11433</Time>
+						</Item>
+						<Item Begin="18480" End="19710">
+							<Text>你-48 怎么 回去 这么 早</Text>
+							<Time>18480,18712 18712,18945 18945,19277 19277,19510 19510,19710</Time>
+						</Item>
+						<Item Begin="20108" End="21637">
+							<Text>有 本事 你-48 吗-554 我-212 呀</Text>
+							<Time>20108,20308 20308,20806 20806,20939 20973,21172 21172,21305 21305,21637</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="3">
+						<Item Begin="12597" End="15887">
+							<Text>我-212 又 不会 是不是 有病 啊 你知道 打电话-214</Text>
+							<Time>12597,12929 12929,13162 13162,13693 13693,14059 14059,14491 14491,14657 14657,15123 15123,15887</Time>
+						</Item>
+						<Item Begin="23067" End="25161">
+							<Text>李淑 太多 我-212 所谓 的 宝宝</Text>
+							<Time>23067,23432 23432,23997 24030,24263 24263,24596 24596,24695 24695,25161</Time>
+						</Item>
+						<Item Begin="25726" End="25992">
+							<Text>吗-110</Text>
+							<Time>25726,25992</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="9.56"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="9.39"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="9.79"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="11">
+						<Item Begin="4786" End="6348"/>
+						<Item Begin="8641" End="9140"/>
+						<Item Begin="9771" End="9805"/>
+						<Item Begin="10569" End="10636"/>
+						<Item Begin="11433" End="12597"/>
+						<Item Begin="15887" End="18480"/>
+						<Item Begin="19710" End="20108"/>
+						<Item Begin="20939" End="20973"/>
+						<Item Begin="21637" End="23067"/>
+						<Item Begin="23997" End="24030"/>
+						<Item Begin="25161" End="25726"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

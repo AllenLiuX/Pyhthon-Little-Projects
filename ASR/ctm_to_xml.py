@@ -4,7 +4,7 @@ from xml.dom.minidom import Document
 
 total_time = 30000
 
-df = pd.read_table('ctm', '\s+', names=['sound','channel','begin','end','text'])
+df = pd.read_table('ctm', '\s+', names=['sound', 'channel', 'begin', 'end', 'text'])
 # print(df)
 #get the names of the sound files
 sounds = list(set(df.sound.values))   #第一列所有值存进array并去重
@@ -17,7 +17,12 @@ sounds_name = list(set(sounds_name))
 for task in sounds_name:
     task_L = df[df.sound == task+"_L"]
     task_R = df[df.sound == task+"_R"]
-    task_end = max(task_L.begin.values[-1]+task_L.end.values[-1], task_R.begin.values[-1]+task_R.end.values[-1])
+    if task_L.shape[0] <= 0:
+        task_end = task_R.begin.values[-1]+task_R.end.values[-1]
+    elif task_R.shape[0] <= 0:
+        task_end = task_L.begin.values[-1]+task_L.end.values[-1]
+    else:
+        task_end = max(task_L.begin.values[-1]+task_L.end.values[-1], task_R.begin.values[-1]+task_R.end.values[-1])
     task_end = round(task_end, 2)
     ratio = total_time / task_end   #multiply by ratio for begin and end
 

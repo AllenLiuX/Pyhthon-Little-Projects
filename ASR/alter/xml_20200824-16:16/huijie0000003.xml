@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="66744" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Huijie2/huijie0000003.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="12">
+						<Item Begin="2604" End="7878">
+							<Text>喂 你好 这里 是 微 众 银行 工作面 临 制定 请问 你 是 真心 什么</Text>
+							<Time>2604,2890 2890,3526 3589,3907 3907,4034 4034,4193 4193,4320 4320,4733 4733,5209 5209,5718 5718,6194 6385,6671 6671,6830 6830,7084 7084,7528 7528,7878</Time>
+						</Item>
+						<Item Begin="11404" End="14231">
+							<Text>真心英雄 &lt;UNK&gt; 一代 产品 本身 来电</Text>
+							<Time>11404,12230 12230,12389 12389,12738 12738,13215 13405,13755 13755,14231</Time>
+						</Item>
+						<Item Begin="14930" End="17249">
+							<Text>去年 均 借款16 的 相关 信息</Text>
+							<Time>14930,15502 15502,15915 15915,16296 16296,16392 16392,16741 16741,17249</Time>
+						</Item>
+						<Item Begin="17662" End="18139">
+							<Text>请问 您</Text>
+							<Time>17662,17948 17948,18139</Time>
+						</Item>
+						<Item Begin="18584" End="19823">
+							<Text>现在 方便 通话 吗</Text>
+							<Time>18584,18901 18901,19251 19251,19600 19600,19823</Time>
+						</Item>
+						<Item Begin="23857" End="25223">
+							<Text>为了 保证 和 治疗</Text>
+							<Time>23857,24143 24143,24524 24524,24842 24842,25223</Time>
+						</Item>
+						<Item Begin="25445" End="28082">
+							<Text>本次11 通话 可能 会 被 录音 请 您 了解</Text>
+							<Time>25445,25763 25763,26176 26208,26462 26462,26621 26621,26780 26780,27224 27224,27479 27479,27606 27606,28082</Time>
+						</Item>
+						<Item Begin="31894" End="35833">
+							<Text>请问 本次 微粒10 大 申请 是由您12 本人 亲自 操作 的 吗</Text>
+							<Time>31894,32403 32403,32911 32911,33197 33197,33387 33387,33832 33832,34404 34404,34817 34817,35166 35166,35516 35516,35611 35611,35833</Time>
+						</Item>
+						<Item Begin="40345" End="42155">
+							<Text>为了 确定 您 账户安全13 去</Text>
+							<Time>40345,40662 40662,41075 41075,41361 41361,41869 41869,42155</Time>
+						</Item>
+						<Item Begin="42568" End="45745">
+							<Text>跟 您 和 对象 身份证 号码 最后 四位 是 多少</Text>
+							<Time>42568,42727 42727,42886 42886,43077 43077,43617 43617,44093 44093,44474 44506,44824 44824,45141 45141,45300 45300,45745</Time>
+						</Item>
+						<Item Begin="55942" End="59469">
+							<Text>恩 不 去 的 我们 这边 是 微 众 银行 的 您 放心</Text>
+							<Time>55942,56324 56324,56483 56483,56673 56673,56896 56896,57245 57245,57594 57594,57817 57817,58007 58007,58166 58166,58579 58738,58833 58833,58992 58992,59469</Time>
+						</Item>
+						<Item Begin="64456" End="66744">
+							<Text>哦 不好意思 打扰 你 了 再见</Text>
+							<Time>64456,64837 64837,65568 65568,65822 65822,66013 66013,66235 66299,66744</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="7">
+						<Item Begin="9689" End="10419">
+							<Text>嗯 是的</Text>
+							<Time>9689,10038 10070,10419</Time>
+						</Item>
+						<Item Begin="21760" End="22618">
+							<Text>哈哈 啦</Text>
+							<Time>21760,22269 22364,22618</Time>
+						</Item>
+						<Item Begin="29671" End="30465">
+							<Text>好</Text>
+							<Time>29671,30465</Time>
+						</Item>
+						<Item Begin="38597" End="39010">
+							<Text>啦</Text>
+							<Time>38597,39010</Time>
+						</Item>
+						<Item Begin="48668" End="51654">
+							<Text>啊 我 为什么 要 告诉你 身份证 和 所谓</Text>
+							<Time>48668,49112 49144,49367 49367,49748 49748,49875 49907,50415 50415,50955 50955,51177 51177,51654</Time>
+						</Item>
+						<Item Begin="52067" End="55402">
+							<Text>的 是 知道 我的 意思 啊 你们 各 大体 机构 八</Text>
+							<Time>52067,52257 52257,52448 52448,52734 52734,52988 52988,53496 53496,53782 53973,54291 54291,54386 54386,54767 54767,55085 55085,55402</Time>
+						</Item>
+						<Item Begin="61756" End="63598">
+							<Text>块 八 快乐 吧 我 不见了</Text>
+							<Time>61756,61978 61978,62137 62137,62423 62423,62677 62773,62963 62963,63598</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="7.85"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="8.16"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="6.97"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="31">
+						<Item Begin="3526" End="3589"/>
+						<Item Begin="6194" End="6385"/>
+						<Item Begin="7878" End="9689"/>
+						<Item Begin="10038" End="10070"/>
+						<Item Begin="10419" End="11404"/>
+						<Item Begin="13215" End="13405"/>
+						<Item Begin="14231" End="14930"/>
+						<Item Begin="17249" End="17662"/>
+						<Item Begin="18139" End="18584"/>
+						<Item Begin="19823" End="21760"/>
+						<Item Begin="22269" End="22364"/>
+						<Item Begin="22618" End="23857"/>
+						<Item Begin="25223" End="25445"/>
+						<Item Begin="26176" End="26208"/>
+						<Item Begin="28082" End="29671"/>
+						<Item Begin="30465" End="31894"/>
+						<Item Begin="35833" End="38597"/>
+						<Item Begin="39010" End="40345"/>
+						<Item Begin="42155" End="42568"/>
+						<Item Begin="44474" End="44506"/>
+						<Item Begin="45745" End="48668"/>
+						<Item Begin="49112" End="49144"/>
+						<Item Begin="49875" End="49907"/>
+						<Item Begin="51654" End="52067"/>
+						<Item Begin="53782" End="53973"/>
+						<Item Begin="55402" End="55942"/>
+						<Item Begin="58579" End="58738"/>
+						<Item Begin="59469" End="61756"/>
+						<Item Begin="62677" End="62773"/>
+						<Item Begin="63598" End="64456"/>
+						<Item Begin="66235" End="66299"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

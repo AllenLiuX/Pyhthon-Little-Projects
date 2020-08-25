@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="29448" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Huijie2/huijie0000006.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="6">
+						<Item Begin="2619" End="5842">
+							<Text>喂 你好 这里 是 无用 银行工作 人员 比</Text>
+							<Time>2619,2854 2854,3492 3626,3928 3928,4096 4096,4465 4465,5305 5305,5540 5540,5842</Time>
+						</Item>
+						<Item Begin="6682" End="8260">
+							<Text>昨天 是 张雨生 吗</Text>
+							<Time>6682,7084 7084,7387 7387,7958 7958,8260</Time>
+						</Item>
+						<Item Begin="24142" End="24545">
+							<Text>嗯</Text>
+							<Time>24142,24545</Time>
+						</Item>
+						<Item Begin="25049" End="25989">
+							<Text>明天 就 去</Text>
+							<Time>25049,25485 25485,25620 25620,25989</Time>
+						</Item>
+						<Item Begin="26291" End="27903">
+							<Text>把 衣服 搭 到 银行</Text>
+							<Time>26291,26526 26526,26862 26862,27097 27164,27466 27466,27903</Time>
+						</Item>
+						<Item Begin="28172" End="29448">
+							<Text>祝您 生活 愉快</Text>
+							<Time>28172,28642 28642,28977 28977,29448</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="6">
+						<Item Begin="839" End="1343">
+							<Text>为</Text>
+							<Time>839,1343</Time>
+						</Item>
+						<Item Begin="9704" End="11886">
+							<Text>女人 微 众 银行 怎么 一天到晚</Text>
+							<Time>9704,9972 9972,10207 10207,10409 10409,10946 10946,11181 11181,11886</Time>
+						</Item>
+						<Item Begin="12088" End="13263">
+							<Text>都 打电话 给我</Text>
+							<Time>12088,12289 12289,12759 12759,13263</Time>
+						</Item>
+						<Item Begin="13699" End="16453">
+							<Text>&lt;UNK&gt; 那么 高 就是 个 高利贷</Text>
+							<Time>13699,14707 14707,14975 14975,15311 15311,15680 15680,15815 15815,16453</Time>
+						</Item>
+						<Item Begin="16923" End="21792">
+							<Text>而且 我 也 不 借钱17 你们 不要 再 打电话 给我 了 如果 再 打 话 我 就 去</Text>
+							<Time>16923,17326 17326,17460 17460,17594 17594,17762 17762,18300 18300,18535 18535,18837 18837,18971 18971,19475 19475,19844 19844,20012 20113,20449 20449,20616 20616,20885 20885,21288 21288,21422 21422,21590 21590,21792</Time>
+						</Item>
+						<Item Begin="22396" End="23068">
+							<Text>投诉 你们</Text>
+							<Time>22396,22833 22833,23068</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="7.33"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="6.57"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="7.88"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="14">
+						<Item Begin="1343" End="2619"/>
+						<Item Begin="3492" End="3626"/>
+						<Item Begin="5842" End="6682"/>
+						<Item Begin="8260" End="9704"/>
+						<Item Begin="11886" End="12088"/>
+						<Item Begin="13263" End="13699"/>
+						<Item Begin="16453" End="16923"/>
+						<Item Begin="20012" End="20113"/>
+						<Item Begin="21792" End="22396"/>
+						<Item Begin="23068" End="24142"/>
+						<Item Begin="24545" End="25049"/>
+						<Item Begin="25989" End="26291"/>
+						<Item Begin="27097" End="27164"/>
+						<Item Begin="27903" End="28172"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>
