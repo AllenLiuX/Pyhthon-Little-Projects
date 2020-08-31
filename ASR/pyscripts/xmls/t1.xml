@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="29808" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Sounds/t1.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="6">
+						<Item Begin="2256" End="3315">
+							<Text>而 威廉 啊</Text>
+							<Time>2256,2495 2495,2973 2973,3315</Time>
+						</Item>
+						<Item Begin="3896" End="7212">
+							<Text>这 是 微 众 银行 更多 没人 给 林 试点</Text>
+							<Time>3896,4067 4170,4443 4443,4683 4683,4854 4854,5366 5366,5742 5742,6118 6153,6358 6358,6597 6597,7212</Time>
+						</Item>
+						<Item Begin="7417" End="8956">
+							<Text>城市 刘雨 是吗</Text>
+							<Time>7417,7930 7930,8409 8409,8956</Time>
+						</Item>
+						<Item Begin="16100" End="17809">
+							<Text>微 众 银行 最佳</Text>
+							<Time>16100,16271 16271,16442 16442,16955 16989,17809</Time>
+						</Item>
+						<Item Begin="18117" End="19245">
+							<Text>您好</Text>
+							<Time>18117,19245</Time>
+						</Item>
+						<Item Begin="26082" End="29808">
+							<Text>好不好 意思 了 打 了 你那 祝您 生活 愉快 债券</Text>
+							<Time>26082,26560 26560,27039 27039,27278 27278,27483 27483,27654 27654,28064 28098,28440 28440,28885 28885,29329 29329,29808</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="5">
+						<Item Begin="4443" End="4819">
+							<Text>嗯</Text>
+							<Time>4443,4819</Time>
+						</Item>
+						<Item Begin="9981" End="13092">
+							<Text>是的 你们 去 哪里 啊 微 众 银行 是</Text>
+							<Time>9981,10528 10528,10767 10767,10904 10904,11280 11280,11554 11554,11827 11827,11998 11998,12442 12442,13092</Time>
+						</Item>
+						<Item Begin="14083" End="14596">
+							<Text>哪家</Text>
+							<Time>14083,14596</Time>
+						</Item>
+						<Item Begin="20304" End="23723">
+							<Text>我没有 听 过 你们 不要 再 给我 打电话 了 不然 我 就</Text>
+							<Time>20304,20817 20817,21125 21125,21501 21501,21740 21740,21979 21979,22150 22150,22356 22356,22937 22937,23108 23142,23449 23449,23552 23552,23723</Time>
+						</Item>
+						<Item Begin="24372" End="24851">
+							<Text>烦 啊</Text>
+							<Time>24372,24577 24577,24851</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="6.61"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="6.11"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="7.38"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="14">
+						<Item Begin="3315" End="3896"/>
+						<Item Begin="4067" End="4170"/>
+						<Item Begin="6118" End="6153"/>
+						<Item Begin="7212" End="7417"/>
+						<Item Begin="8956" End="9981"/>
+						<Item Begin="13092" End="14083"/>
+						<Item Begin="14596" End="16100"/>
+						<Item Begin="16955" End="16989"/>
+						<Item Begin="17809" End="18117"/>
+						<Item Begin="19245" End="20304"/>
+						<Item Begin="23108" End="23142"/>
+						<Item Begin="23723" End="24372"/>
+						<Item Begin="24851" End="26082"/>
+						<Item Begin="28064" End="28098"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>

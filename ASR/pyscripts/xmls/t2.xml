@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RecognizeResult>
+		<Speech Duration="70632" Uri="/home/gpu/kaldi-master/egs/aidatatang_asr/Sounds/t2.mp3">
+			<ResultCode>0</ResultCode>
+			<Confidence>100</Confidence>
+			<Subject Name="RecognizeText">
+				<Role Name="R0">
+					<EndPoint Count="24">
+						<Item Begin="2985" End="4292">
+							<Text>喂 你好 治理</Text>
+							<Time>2985,3296 3296,3856 3856,4292</Time>
+						</Item>
+						<Item Begin="4665" End="5816">
+							<Text>银行工作 人员</Text>
+							<Time>4665,5349 5349,5816</Time>
+						</Item>
+						<Item Begin="6158" End="8335">
+							<Text>致电 由于 张女 士 吗</Text>
+							<Time>6158,6593 6717,7402 7402,7899 7899,8055 8055,8335</Time>
+						</Item>
+						<Item Begin="11165" End="13031">
+							<Text>人均 选 无力 在成</Text>
+							<Time>11165,11756 11756,12036 12036,12596 12596,13031</Time>
+						</Item>
+						<Item Begin="13653" End="15768">
+							<Text>本 不来 电子游戏 园区</Text>
+							<Time>13653,13871 13871,14151 14151,14897 14897,15768</Time>
+						</Item>
+						<Item Begin="16235" End="17137">
+							<Text>相关 数据</Text>
+							<Time>16235,16577 16577,17137</Time>
+						</Item>
+						<Item Begin="17479" End="19283">
+							<Text>从 您 现在 接电话 方便 吗</Text>
+							<Time>17479,17727 17727,17945 17945,18381 18381,18661 18661,19003 19003,19283</Time>
+						</Item>
+						<Item Begin="23544" End="24788">
+							<Text>为了 保证 和</Text>
+							<Time>23544,23855 23855,24414 24414,24788</Time>
+						</Item>
+						<Item Begin="25814" End="26280">
+							<Text>通话</Text>
+							<Time>25814,26280</Time>
+						</Item>
+						<Item Begin="26809" End="27307">
+							<Text>录音</Text>
+							<Time>26809,27307</Time>
+						</Item>
+						<Item Begin="27711" End="28178">
+							<Text>了解</Text>
+							<Time>27711,28178</Time>
+						</Item>
+						<Item Begin="30666" End="32221">
+							<Text>为了 确认 民政部门</Text>
+							<Time>30666,30977 30977,31381 31381,32221</Time>
+						</Item>
+						<Item Begin="33807" End="35300">
+							<Text>和 最少 身份证 号码</Text>
+							<Time>33807,33994 33994,34460 34460,34927 34927,35300</Time>
+						</Item>
+						<Item Begin="39716" End="41427">
+							<Text>有 为您 为了 以后 我是</Text>
+							<Time>39716,39903 39903,40307 40307,40649 40649,41054 41054,41427</Time>
+						</Item>
+						<Item Begin="42827" End="43293">
+							<Text>你 在</Text>
+							<Time>42827,43013 43013,43293</Time>
+						</Item>
+						<Item Begin="43822" End="44133">
+							<Text>吗</Text>
+							<Time>43822,44133</Time>
+						</Item>
+						<Item Begin="46341" End="48580">
+							<Text>认识 你的 配合 温馨提示</Text>
+							<Time>46341,46839 46839,47119 47119,47585 47741,48580</Time>
+						</Item>
+						<Item Begin="49047" End="50913">
+							<Text>按照 夜跑 合同 规定</Text>
+							<Time>49047,49607 49607,50167 50167,50478 50478,50913</Time>
+						</Item>
+						<Item Begin="51815" End="52904">
+							<Text>的 位于 再进 行</Text>
+							<Time>51815,51939 51939,52250 52250,52624 52624,52904</Time>
+						</Item>
+						<Item Begin="53121" End="55174">
+							<Text>仍 不能 用于 购买 住房 与</Text>
+							<Time>53121,53339 53339,53650 53650,54179 54179,54583 54583,55018 55018,55174</Time>
+						</Item>
+						<Item Begin="55734" End="56916">
+							<Text>股票 证券投资</Text>
+							<Time>55734,56138 56138,56916</Time>
+						</Item>
+						<Item Begin="62887" End="64660">
+							<Text>和 配合 我们 会 尽快 为您</Text>
+							<Time>62887,63043 63043,63478 63540,63789 63789,63976 63976,64380 64380,64660</Time>
+						</Item>
+						<Item Begin="66402" End="67708">
+							<Text>和服 务 积极 评价</Text>
+							<Time>66402,66806 66806,66993 66993,67304 67304,67708</Time>
+						</Item>
+						<Item Begin="68734" End="69139">
+							<Text>再见</Text>
+							<Time>68734,69139</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+				<Role Name="R1">
+					<EndPoint Count="7">
+						<Item Begin="746" End="1244">
+							<Text>为</Text>
+							<Time>746,1244</Time>
+						</Item>
+						<Item Begin="20060" End="20869">
+							<Text>方便 也许</Text>
+							<Time>20060,20558 20558,20869</Time>
+						</Item>
+						<Item Begin="21273" End="22206">
+							<Text>你看 你说 吧</Text>
+							<Time>21273,21553 21553,21957 21957,22206</Time>
+						</Item>
+						<Item Begin="28986" End="29484">
+							<Text>好的</Text>
+							<Time>28986,29484</Time>
+						</Item>
+						<Item Begin="37819" End="38690">
+							<Text>二五二 五</Text>
+							<Time>37819,38410 38410,38690</Time>
+						</Item>
+						<Item Begin="59621" End="60461">
+							<Text>我知道 的</Text>
+							<Time>59621,60244 60244,60461</Time>
+						</Item>
+						<Item Begin="70227" End="70631">
+							<Text>软件</Text>
+							<Time>70227,70631</Time>
+						</Item>
+					</EndPoint>
+				</Role>
+			</Subject>
+			<Subject Name="SpeakSpeed">
+				<Role Name="mix">
+					<SpeakSpeed value="6.34"/>
+				</Role>
+				<Role Name="R0">
+					<SpeakSpeed value="6.46"/>
+				</Role>
+				<Role Name="R1">
+					<SpeakSpeed value="5.56"/>
+				</Role>
+			</Subject>
+			<Subject Name="LongSilence">
+				<Role Name="mix">
+					<EndPoint Count="33">
+						<Item Begin="1244" End="2985"/>
+						<Item Begin="4292" End="4665"/>
+						<Item Begin="5816" End="6158"/>
+						<Item Begin="6593" End="6717"/>
+						<Item Begin="8335" End="11165"/>
+						<Item Begin="13031" End="13653"/>
+						<Item Begin="15768" End="16235"/>
+						<Item Begin="17137" End="17479"/>
+						<Item Begin="19283" End="20060"/>
+						<Item Begin="20869" End="21273"/>
+						<Item Begin="22206" End="23544"/>
+						<Item Begin="24788" End="25814"/>
+						<Item Begin="26280" End="26809"/>
+						<Item Begin="27307" End="27711"/>
+						<Item Begin="28178" End="28986"/>
+						<Item Begin="29484" End="30666"/>
+						<Item Begin="32221" End="33807"/>
+						<Item Begin="35300" End="37819"/>
+						<Item Begin="38690" End="39716"/>
+						<Item Begin="41427" End="42827"/>
+						<Item Begin="43293" End="43822"/>
+						<Item Begin="44133" End="46341"/>
+						<Item Begin="47585" End="47741"/>
+						<Item Begin="48580" End="49047"/>
+						<Item Begin="50913" End="51815"/>
+						<Item Begin="52904" End="53121"/>
+						<Item Begin="55174" End="55734"/>
+						<Item Begin="56916" End="59621"/>
+						<Item Begin="60461" End="62887"/>
+						<Item Begin="63478" End="63540"/>
+						<Item Begin="64660" End="66402"/>
+						<Item Begin="67708" End="68734"/>
+						<Item Begin="69139" End="70227"/>
+					</EndPoint>
+				</Role>
+			</Subject>
+		</Speech>
+	</RecognizeResult>
