@@ -2,7 +2,6 @@ import urllib.request
 from urllib.parse import quote
 import string
 import pdfkit
-
 from bs4 import BeautifulSoup
 import json
 import re
