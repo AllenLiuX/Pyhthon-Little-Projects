@@ -11,6 +11,7 @@ import re
 import os
 import sys
 import getopt
+import time
 # from html2pdf import HTMLToPDF
 # import dryscrape
 # import requests
@@ -33,9 +34,10 @@ def get_pagenum(path):
 
 
 def get_url_dynamic(url):
-    driver=webdriver.Chrome()   # 调用本地的火狐浏览器，Chrom 甚至 Ie 也可以的
+    driver = webdriver.Chrome()   # 调用本地的火狐浏览器，Chrom 甚至 Ie 也可以的
     driver.get(url)     # 请求页面，会打开一个浏览器窗口
-    html_text=driver.page_source
+    time.sleep(3)    # 等待页面渲染完毕
+    html_text = driver.page_source
     # driver.quit()
     return html_text
 
@@ -61,19 +63,37 @@ def get_urls(searchword, begin_time, art_num):
         # # 2 requests method
         # response = requests.get(url).content
         # # 3 Selenium method
-        response = get_url_dynamic(cur_url)
+        try:
+            response = get_url_dynamic(cur_url)
+        except:
+            print('Error')
         # print(response)
-        with open('page.html', 'w') as f:
+        with open('page2.html', 'w') as f:
             f.write(response)
-        # soup = BeautifulSoup(response, features="html.parser")
+        soup = BeautifulSoup(response, features="html.parser")
+        articles = soup.find_all(class_='clearfix row article-cont')
 
-        break   # temporarily go through the loop only once
-    res = ['4071301', '3858983', '3134984']
+        id_cach = [art['id'] for art in articles]
+        if len(id_cach) < 20:   # 最后一页
+            res += id_cach
+            break
+        res += id_cach[:art_num%20]
+    print(res)
+    # res = ['4071301', '3858983', '3134984']
     return res
 
 
-def form_json(id, soup, content, searchword):
+def form_json(id, soup, content, searchword, begin_time):
     info = {}
+    # 获取时间
+    date = soup.find_all('time')[0].text
+    print('date:', date)
+    s_time = time.mktime(time.strptime(begin_time, '%Y-%m-%d'))
+    e_time = time.mktime(time.strptime(date, '%Y-%m-%d'))
+    if s_time > e_time:
+        print('Date exceed begin time found. Skip the following articles.')
+        return False
+    info['date'] = date
     # 获取id, type, source, author
     info['id'] = id
     info['type'] = 'report'
@@ -88,10 +108,6 @@ def form_json(id, soup, content, searchword):
     page_num = get_pagenum(path)
     print("Number of pages:", page_num)
     info['page_num'] = page_num
-    # 获取时间
-    date = soup.find_all('time')[0].text
-    print('date:', date)
-    info['date'] = date
     # 获取title
     title = soup.find_all(class_='article--title')[0].text
     print('title:', title)
@@ -99,6 +115,7 @@ def form_json(id, soup, content, searchword):
     # print(info)
     with open(searchword+'/'+id+'.json', 'w') as f:
         f.write(json.dumps(info, ensure_ascii=False, indent=4, separators=(',', ':')))
+    return True
 
 
 def calc_keywords(content, keywords):
@@ -110,12 +127,16 @@ def calc_keywords(content, keywords):
     print(stats)
 
 
-def process_article(id, words_min, searchword, keywords):
+def process_article(id, words_min, searchword, keywords, begin_time):
     url = "http://www.woshipm.com/pd/"+id+".html"
     header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36'}
-    request = urllib.request.Request(url, headers=header)
-    response = urllib.request.urlopen(request).read()
-    result = response.decode('utf-8', 'ignore').replace(u'\xa9', u'')
+    try:
+        request = urllib.request.Request(url, headers=header)
+        response = urllib.request.urlopen(request).read()
+        result = response.decode('utf-8', 'ignore').replace(u'\xa9', u'')
+    except:
+        print('error: page not found.')
+        return
     soup = BeautifulSoup(result, features="html.parser")
     # 获取纯文本信息raw_txt
     # content = str(soup.find_all(class_="article--content grap"))
@@ -128,28 +149,31 @@ def process_article(id, words_min, searchword, keywords):
         raw_txt += t.text
 
     if len(raw_txt) >= words_min: # 判断文本长度
+        # 获取json信息
+        conti = form_json(id, soup, raw_txt, searchword, begin_time)
+        if conti == False:
+            return False
+        calc_keywords(raw_txt, keywords)
         # 转换pdf
-        print("Downloading article #" + id + ' ' + url)
-        print("content:", raw_txt)
         print("Word count: ", len(raw_txt))
+        print("Downloading article #" + id + ' ' + url)
+        # print("content:", raw_txt)
         path = searchword + "/" + id + '.pdf'
         config = pdfkit.configuration(wkhtmltopdf='/usr/local/bin/wkhtmltopdf')
         pdfkit.from_url(url, path, configuration=config)
-        # 获取json信息
-        form_json(id, soup, raw_txt, searchword)
-        calc_keywords(raw_txt, keywords)
     # print(result)
+    return True
 
 
 def main():
     """
-    Two modes: directed run without options / called with 4 optional options: searchword, words_min, begin_time, and art_num.
+    Two modes: directed run without options / called with 5 optional options: searchword, words_min, begin_time, art_num, and keywords.
     """
     searchword, words_min, begin_time, art_num, keywords = '', '', '', '', ''
     if len(sys.argv) == 1:
         searchword = input("Searchword: ")
         words_min = input("Min words count: ")
-        begin_time = input("End time(yyy-mm-dd): ")
+        begin_time = input("End time(yyyy-mm-dd): ")
         art_num = input("Max number of articles: ")
         keywords = input("keywords: ")
     else:
@@ -185,7 +209,9 @@ def main():
     print("Found articles count: " + str(len(ids)))
     for id in ids:
         print("Processing article #"+str(id))
-        process_article(id, int(words_min), searchword, keywords)
+        status = process_article(id, int(words_min), searchword, keywords, begin_time)
+        if status == False:
+            break
 
 
 if __name__=="__main__":
